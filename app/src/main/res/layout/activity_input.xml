@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/size_j"
+        android:layout_width="128dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="109dp"
+        android:background="@android:drawable/alert_dark_frame"
+        android:gravity="center"
+        android:text="@string/size_row"
+        android:textColor="?attr/colorButtonNormal" />
+
+    <Spinner
+        android:id="@+id/input_i"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginRight="231dp"
+        android:background="@drawable/spin_inp" />
+
+    <Spinner
+        android:id="@+id/input_j"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/spin_inp" />
+
+    <TextView
+        android:id="@+id/size_i"
+        android:layout_width="128dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="110dp"
+        android:background="@android:drawable/alert_dark_frame"
+        android:gravity="center"
+        android:text="@string/size_column"
+        android:textColor="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/choose_b"
+        android:layout_width="293dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="306dp"
+        android:background="@drawable/hintbutton"
+        android:text="Choose and Start Game" />
+</RelativeLayout>
